@@ -1,0 +1,45 @@
+{
+  "name": "@ketver/llm-batching-aid",
+  "version": "1.0.0",
+  "description": "Efficient batching library for OpenAI and Anthropic LLM requests using JSONL",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "example:basic": "node examples/basic.js",
+    "example:batch": "node examples/batch.js"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "openai": "^4.0.0",
+    "@anthropic-ai/sdk": "^0.10.0"
+  },
+  "devDependencies": {
+    "openai": "^4.0.0",
+    "@anthropic-ai/sdk": "^0.10.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketver/llm-batching-aidtop.git"
+  },
+  "keywords": [
+    "openai",
+    "anthropic",
+    "batching",
+    "llm",
+    "async",
+    "jsonl",
+    "gpt",
+    "claude"
+  ],
+  "author": "StackBlitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ketver/llm-batching-aidtop/issues"
+  },
+  "homepage": "https://github.com/Ketver/llm-batching-aidtop#readme"
+}
